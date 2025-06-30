@@ -1,0 +1,200 @@
+body{
+    background-color: #1C315E;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.header-container{
+    color: #227C70;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 100vw;
+    border-bottom: 1px solid #227C70;
+    position: unset;
+}
+
+*{
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5vw;
+}
+
+.field-container{
+    background-color: #1C315E;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #227C70;
+    border-width: 0.15vw;
+    height: 75vh;
+    width: 45%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.CA{
+    display: flex;
+    justify-content: center;
+}
+
+.slot{
+    margin: 0.5vw 0;
+    width: 9vw;
+    height: 3.5vw;
+}
+
+.playerCard{
+    width: 100%;
+    height: 100%; 
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: default;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.card_face{
+    border: 0.15vw solid #227C70;
+    border-radius: 10px;
+    margin-left: -0.15vw;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1vw;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_face--front{
+    color: #E6E2C3;
+    height: fit-content;
+}
+
+.pontas{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.mid-container{
+    margin: 1vw 0 0.5vw 0;
+}
+
+.MAT{
+    display: flex;
+    justify-content: center;
+}
+
+.centrais{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.defense-container{
+    margin: 0.5vw 0 1vw 0;
+}
+
+.laterais{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.zagueiros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.goleiro-container{
+    display: flex;
+    justify-content: center;
+}
+
+.under-field{
+    display: flex;
+    justify-content: center;
+}
+
+.random-team{
+    margin-top: 0.65vw;
+    margin-left: 0.25vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+div.player-form{
+    margin: 1rem 4rem;
+    display: flex;
+
+}
+
+.type-box{
+    padding: 0.5vw;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 0.15vw solid #227C70;
+    border-radius: 10px;
+    background-color: #1C315E;
+    color: #fff;
+    margin: 0 0.5vw;
+    outline: none;
+}
+
+.btn{
+    padding: 0.5vw;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 0.15vw solid #227C70;
+    border-radius: 10px;
+    margin: 0 0.5vw;
+    background-color: #227C70;
+    outline: none;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}
+
+.reset-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    margin-top: 0.5vw;
+    margin-right: 0.25vw;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
